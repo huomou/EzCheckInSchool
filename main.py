@@ -33,7 +33,7 @@ def main():
     hms = update_time()
     if (hms[0] >= 6) & (hms[0] < 8):
         customer_app_type_rule_id = 146
-    elif (hms[0] >= 12) & (hms[0] < 14):
+    elif (hms[0] >= 11) & (hms[0] < 15):
         customer_app_type_rule_id = 147
     elif (hms[0] >= 21) & (hms[0] < 22):
         customer_app_type_rule_id = 148
