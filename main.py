@@ -187,7 +187,7 @@ def wx_push(wx_uid, title, response):
 ### 😀[记得Star此项目](https://github.com/chillsoul/EzCheckInSchool)
         """
     data = {
-        "appToken": "AT_bVK4MZob9c9acNmLbWHN6RjQxeGllOOB",
+        "appToken": "AT_hHtOWzcFDw3nhEWfhLNJgnNDAO132pFK",
         "content": content,
         "summary": title,
         "contentType": 3,
