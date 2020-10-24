@@ -39,7 +39,8 @@ def main():
         customer_app_type_rule_id = 148
     else:
         print('未到打卡时间，将重打早间卡测试')
-        exit(0)
+        customer_app_type_rule_id = 146
+        #exit(0)
 
     for index, value in enumerate(user_id):
         time_msg = str(hms[0]) + '时' + str(hms[1]) + '分' + str(hms[2]) + '秒'
