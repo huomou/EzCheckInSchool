@@ -23,8 +23,11 @@ jobs:
       with:
         python-version: 3.8
     - name: Install dependencies
-      run: |
-        pip3 install requests
+      run: |	
+        sudo apt update && \	
+        sudo apt install python3  
+      continue-on-error: true
+     
         
     - name: AutoCheck
       run: |
