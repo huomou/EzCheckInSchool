@@ -29,7 +29,7 @@ def main():
         wx_uid.append(info[3])
         user_in = input()
 
-    # 时间判断 Github Actions采用国际标准时
+    # 时间判断 Github Actions采用国际标准时j
     hms = update_time()
     if (hms[0] >= 6) & (hms[0] < 8):
         customer_app_type_rule_id = 146
